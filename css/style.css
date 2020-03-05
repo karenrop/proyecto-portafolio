@@ -123,17 +123,26 @@ body {
   font-family: var(--font-family);
 }
 
-.flex-container {
-  display: flex column;
+.nav {
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Sections */
-
-/* Ejercicio Layouts */
-.header {
-  border: 2px skyblue;
+.nav img {
+  /* temporal */
+  width: 75%;
 }
 
-.seccion-lista {
-  border: 6px slategray;
+.nav ul {
+  /* temporal */
+  list-style: none;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
 }
